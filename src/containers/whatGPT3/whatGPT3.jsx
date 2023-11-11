@@ -3,7 +3,11 @@ import './whatGPT3.css'
 
 function WhatGPT3() {
   return (
-    <div>WhatGPT3</div>
+    <div className="gpt3__whatgpt3 section__margin" id="gpt3">
+      <div className="gpt3__whatgpt3-feature">
+        
+      </div>
+    </div>
   )
 }
 

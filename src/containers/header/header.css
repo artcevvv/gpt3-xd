@@ -115,13 +115,16 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1250px) {
     .gpt3__header {
         flex-direction: columns;
     }
 
     .gpt3__header-content {
         margin: 0 0 3rem;
+    }
+    .gpt3__header-image{
+        display: none;
     }
 }
 
@@ -149,6 +152,10 @@
         font-size: 16px;
         line-height: 24px;
     }
+    
+    .gpt3__header-image{
+        display: none;
+    }
 }
 
 
@@ -167,5 +174,9 @@
     .gpt3__header-content_input button {
         font-size: 12px;
         line-height: 16px;
+    }
+    
+    .gpt3__header-image{
+        display: none;
     }
 }
