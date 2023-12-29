@@ -11,7 +11,7 @@ function Footer() {
         </h1>
       </div>
       <div className="gpt3__footer-btn">
-        <p>Request Early Access</p>
+        <button>Request Early Access</button>
       </div>
 
       <div className="gpt3__footer-links">

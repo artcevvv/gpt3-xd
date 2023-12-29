@@ -18,7 +18,7 @@ function Header() {
         </p>
         <div className="gpt3__header-content_input">
           <input type="email" className="" placeholder="Type your Email" />
-          <button className="" type="button">
+          <button className="btn-header" type="button">
             Get started
           </button>
         </div>

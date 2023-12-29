@@ -23,26 +23,24 @@
     letter-spacing: -0.04em;
 }
 
-.gpt3__footer-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 1rem;
-    border: 1px solid white;
-    text-align: center;
-
-    margin-bottom: 10rem;
-    cursor: pointer;
-}
-
-.gpt3__footer-btn p{
+.gpt3__footer-btn button{
     box-sizing: border-box;
     font-family: var(--font-family);
+    padding: 1rem;
     font-size: 18px;
+    margin-bottom: 10rem;
+    border: 1px solid white;
     word-spacing: 2px;
     line-height: 21px;
     color: white;
+    background: transparent;
+}
+
+.gpt3__footer-btn button:hover{
+    transition: all 0.5s ease;
+    background: white;
+    color: black;
+    cursor: pointer;
 }
 
 .gpt3__footer-links{
