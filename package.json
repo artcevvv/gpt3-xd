@@ -2,7 +2,7 @@
   "name": "first",
   "version": "0.1.0",
   "private": true,
-  "homepage": "artcevvv.github.io/gpt3-xd",
+  "homepage": "http://artcevvv.github.io/gpt3-xd/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
